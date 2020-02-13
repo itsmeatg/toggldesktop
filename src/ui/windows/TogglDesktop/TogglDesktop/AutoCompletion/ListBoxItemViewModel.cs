@@ -19,7 +19,7 @@
 
     class TagItemViewModel : ListBoxItemViewModel
     {
-        public bool IsChecked { get; }
+        public bool IsChecked { get; set; }
         public TagItemViewModel(string text, int index)
         {
             Text = text;

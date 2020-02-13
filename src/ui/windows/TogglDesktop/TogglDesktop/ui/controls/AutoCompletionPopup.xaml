@@ -85,7 +85,7 @@
                 </Border>
             </DataTemplate>
             <DataTemplate x:Key="tag-item-template">
-                <Border Height="32">
+                <Border Height="32" Margin="12 0 0 0">
                     <CheckBox VerticalAlignment="Center"
                               Content="{Binding Text}"
                               ToolTip="{Binding Text}"
