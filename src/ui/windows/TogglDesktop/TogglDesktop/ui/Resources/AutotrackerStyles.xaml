@@ -26,13 +26,6 @@
         <Setter Property="VerticalAlignment" Value="Bottom"/>
         <Setter Property="Margin" Value="16, 0"/>
     </Style>
-    <Style TargetType="TextBlock" x:Key="TextboxEmptyText" BasedOn="{StaticResource {x:Type TextBlock}}">
-        <Setter Property="Foreground" Value="#b6b6b6"/>
-        <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="Margin" Value="16, 0"/>
-        <Setter Property="Visibility" Value="Hidden"/>
-        <Setter Property="IsHitTestVisible" Value="False"/>
-    </Style>
 
     <Style TargetType="ToggleButton" x:Key="AutoCompleteTextFieldButton" BasedOn="{StaticResource AutotrackerSettingsControlBase}">
         <Setter Property="Template">
